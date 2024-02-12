@@ -5,10 +5,11 @@
     background-size: 5px;
     border-radius: 45px;
     border-style: solid;
-    height: 10px;
+    display: block;
+    height: 100px;
     padding-left: 40px;
-    vertical-align: middle;
-    width: 50px;
+    margin: 0 auto;
+    width: 500px;
 }
 
 .button {
