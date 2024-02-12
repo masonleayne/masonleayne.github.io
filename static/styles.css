@@ -1,22 +1,39 @@
 .box {
     background-image: url("/assets/search.svg");
-    background-position: 10px 10px;
+    background-position: 10px 13px;
     background-repeat: no-repeat;
-    background-size: 5px;
+    background-size: 15px;
     border-radius: 45px;
     border-style: solid;
+    border-width: 1px;
     display: block;
-    height: 25px;
-    padding-left: 40px;
+    height: 40px;
     margin: 0 auto;
-    width: 250px;
+    margin-top: 50px;
+    padding-left: 40px;
+    width: 550px;
+}
+
+.box:focus {
+    outline:none;
+}
+
+.box:hover {
+    box-shadow: 0 4px 1px darkgray;
+    height: 42px;
+    margin-top: 48px;
+    width: 552px;
 }
 
 .button {
     background-color: white;
-    border: none;
+    border-color: white;
+    border-style: solid;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 7px;
     text-align: center;
-    padding: 5px;
 }
 
 .button:hover {
