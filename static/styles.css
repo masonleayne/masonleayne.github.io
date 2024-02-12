@@ -6,15 +6,19 @@
     border-radius: 45px;
     border-style: solid;
     display: block;
-    height: 100px;
+    height: 500px;
     padding-left: 40px;
     margin: 0 auto;
-    width: 500px;
+    width: 1000px;
 }
 
 .button {
     background-color: white;
+    border: none;
+}
+
+.button:hover {
     border-color: lightgrey;
-    border-radius: 10px;
+    border-radius: 5px;
     border-style: solid;
 }
