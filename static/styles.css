@@ -1,8 +1,9 @@
 .box {
     background-image: url("/assets/search.svg");
     background-position: 10px 10px;
+    background-repeat: no-repeat;
+    border-radius: 45px;
     padding-left: 40px;
-    border-style: groove;
 }
 
 .button {
