@@ -2,8 +2,13 @@
     background-image: url("/assets/search.svg");
     background-position: 10px 10px;
     background-repeat: no-repeat;
+    background-size: 5px;
     border-radius: 45px;
+    border-style: solid;
+    height: 10px;
     padding-left: 40px;
+    vertical-align: middle;
+    width: 50px;
 }
 
 .button {
