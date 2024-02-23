@@ -42,14 +42,36 @@
     border-style: solid;
 }
 
-.adiv {
+.adiv1 {
+    float: left;
+    width: 190px;
+}
 
+.adiv2 {
+    float: left;
+    width: 1100px;
+}
+
+.adiv3 {
+    float: left;
+}
+
+.adiv4 {
+    float: left;
+    width: 50px;
+    text-align: center;
 }
 
 .abox {
+    width: 900px;
+}
 
+.abox2 {
+    width: 421px;
 }
 
 .button2 {
+    float: left;
+}
 
 }
