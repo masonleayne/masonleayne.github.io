@@ -1,3 +1,8 @@
+:root {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
 .box {
     background-image: url("/assets/search.svg");
     background-position: 10px 13px;
@@ -45,21 +50,25 @@
 .adiv1 {
     float: left;
     width: 190px;
+    margin-top: 25px;
 }
 
 .adiv2 {
     float: left;
     width: 1100px;
+    margin-top: 25px;
 }
 
 .adiv3 {
     float: left;
+    margin-top: 25px;
 }
 
 .adiv4 {
     float: left;
     width: 50px;
     text-align: center;
+    margin-top: 25px;
 }
 
 .wdiv {
@@ -69,14 +78,25 @@
 
 .abox {
     width: 900px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
 }
 
 .abox2 {
     width: 421px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
 }
 
 .button2 {
     float: left;
-    margin-left: 587px;
+    margin-left: 583px;
+    background-color: #4d90fe;
+    box-shadow: none;
+    border: 1px solid #3079ed;
+    color: white;
+    padding: 6px 12px;
+    margin-top: 25px;
 }
+
 
