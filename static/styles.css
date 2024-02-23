@@ -62,6 +62,11 @@
     text-align: center;
 }
 
+.wdiv {
+    float: left;
+    width: 1100px;
+}
+
 .abox {
     width: 900px;
 }
@@ -72,6 +77,6 @@
 
 .button2 {
     float: left;
+    margin-left: 587px;
 }
 
-}
