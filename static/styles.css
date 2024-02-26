@@ -105,16 +105,37 @@
 }
 
 .link {
-    margin-left: 1150px;
     background-color: #4d90fe;
     box-shadow: none;
     border: 1px solid #3079ed;
     color: white;
     padding: 6px 12px;
     margin-top: 25px;
+    text-decoration: none;
 }
 
 .link:hover {
     background-color: #357ae8;
     border: 1px solid #2f5bb7;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
 }
