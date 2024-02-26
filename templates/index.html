@@ -5,14 +5,10 @@
         <title>Search</title>
     </head>
     <body>
-        <navbar>
-            <form action="/templates/images.html">
-                <input class="link" type="submit"  value="Image Search">
-            </form>
-            <form action="/templates/advanced.html">
-                <input class="link" type="submit" value="Advanced Search">
-            </form>
-        </navbar>
+        <nav>
+            <li href="/templates/images.html">Image Search</li>  
+            <li href="/templates/advanced.html">Advanced Search</li>
+        </nav>
         <form action="https://www.google.com/search">
             <input class="box" type="text" name="q">
             <input class="button" type="submit" value="Google Search">
